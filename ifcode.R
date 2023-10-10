@@ -77,3 +77,28 @@ for(i in 1:100){
 }
 sum
 
+count <- 0
+mtsx <- 0
+for(i in 1:100){
+  if(i%%3 ==0){
+    count <- count + i
+    mtsx <- mtsx + 1
+  }
+}
+count
+mtsx
+
+for(i in 101:200){
+  if(i %% 3==0 & i %% 4 == 0){
+    print(i)
+  }
+}
+
+# 어떤 수로 나누어 떨어지는 것을 약수
+for(i in 1:24){
+  if(i %% 24 == 0){
+    print(i)
+  }
+}
+
+
