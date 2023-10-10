@@ -9,9 +9,13 @@ job.type
 bonus
 
 # 시험문제 : 학점 처리
-score <- 85
+score <- 100
 if(score > 90){
-  grade <- 'A'
+  if(score > 95){
+    grade <- 'A+'
+  }else {
+    grade <- 'A'
+  }
 }else if(score > 80){
   grade <- 'B'
 }else if(score > 70){
