@@ -53,3 +53,27 @@ a <- 10
 b <- 20
 c <- ifelse(a > b, a, b)
 c
+
+# for 문
+for(i in 1:5){
+  print('*')
+  print(i)
+}
+
+for(i in 1:9){
+  cat("2 * ",i, "=", 2*i, '\n')
+}
+
+for(i in 1:9){
+  for(j in 1:9){
+    cat(i,"*",j,'=',i*j,'\n')
+  }
+}
+
+# 1~100까지 더하기
+sum <- 0
+for(i in 1:100){
+  sum <- sum + i
+}
+sum
+
