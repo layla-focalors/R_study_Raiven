@@ -110,4 +110,31 @@ for(i in 1:10){
 }
 act
 
+# iris 에서 꽃잎의 길이에 따른 분류 작업
+m.nrow <- nrow(iris)
+m.nrow
+my_label <- c()
+for(i in 1:m.nrow){
+  if(iris$Petal.Length[i] <= 1.6 ){
+    mylabel[i] <- 'L'
+  }else if(iris$Petal.Length[i] >= 5.1){
+    mylabel[i] <- 'H'
+  }else {
+    mylabel[i] <- 'M'
+  }
+}
+mylabel
+newds <- data.frame(iris$Petal.Length, mylabel)
+head(newds)
 
+sum <- 0
+i <- 1
+
+# while문을 활용하여, 1~100까지 더하기
+
+while(i <= 100){
+  sum <- sum + i
+  i <- i + 1
+}
+sum
+i
