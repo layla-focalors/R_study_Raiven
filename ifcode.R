@@ -48,3 +48,8 @@ if(n %% 2 == 1){
 }
 type
 
+# ifelse문
+a <- 10
+b <- 20
+c <- ifelse(a > b, a, b)
+c
