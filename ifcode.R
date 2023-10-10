@@ -38,3 +38,13 @@ if(a > 5 & b > 5){
 if(a > 5 | b > 5){
   print(a * b)
 }
+
+# 코드짜기
+n <- 12
+if(n %% 2 == 1){
+  type <- 'odd'
+}else{
+  type <- 'even'
+}
+type
+
