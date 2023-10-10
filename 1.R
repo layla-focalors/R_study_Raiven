@@ -1,7 +1,7 @@
 x <- c(2, 4, 6, 8)
 y <- c(10, 12, 14, 16)
 z <- c(18, 20, 22, 24)
-m <- rbind(x, y, z)
+m <- cbind(x, y, z)
 
 m
 matrix(c(2, 10, 18, 
@@ -19,6 +19,15 @@ m
 colnames(m) <- c('a', 'b', 'c', 'd')
 rownames(m) <- c('x', 'y')
 m
+
+job.type = 'A'
+if(job.type == 'B'){
+  bonus <- 200
+}else{
+  bonus <- 100
+}
+job.type
+bonus
 
 blood <- c('A', 'O', 'AB', 'B', 'B')
 rh <- c('+', '+', '-', '+', '+')
@@ -62,3 +71,13 @@ subset(cars, dist == max(cars$dist))
 
 df <- cars
 head(df)
+job.type = 'A'
+if(job.type == 'B'){
+  bonus <- 200
+}else{
+  bonus <- 100
+}
+job.type
+bonus
+
+
