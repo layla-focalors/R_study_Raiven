@@ -101,4 +101,13 @@ for(i in 1:24){
   }
 }
 
+fx <- factorial(10)
+fx
+
+act <- 1
+for(i in 1:10){
+  act <- act * i
+}
+act
+
 
