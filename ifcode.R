@@ -137,4 +137,8 @@ while(i <= 100){
   i <- i + 1
 }
 sum
-i
+
+# apply 문
+
+apply(iris[, 1:4], 1, mean) # 행 방향
+apply(iris[, 1:4], 2, mean) # 열 방향
