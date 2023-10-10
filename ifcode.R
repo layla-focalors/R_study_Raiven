@@ -27,3 +27,14 @@ if(score > 90){
 }
 
 grade
+
+# 논리 메서드
+a <- 10
+b <- 10
+
+if(a > 5 & b > 5){
+  print(a + b)
+}
+if(a > 5 | b > 5){
+  print(a * b)
+}
